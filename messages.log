@@ -11,3 +11,56 @@
 [2021-08-23 16:46:30,670] [INFO] [werkzeug] [_internal:225] -  * Running on http://localhost:5000/ (Press CTRL+C to quit)
 [2021-08-23 17:23:39,453] [INFO] [flaskblog] [load_database:24] - previous DB file removed
 [2021-08-23 17:23:40,400] [INFO] [flaskblog] [load_database:124] - Finalized - database created successfully!
+[2021-08-23 17:24:00,890] [INFO] [werkzeug] [_internal:225] -  * Running on http://localhost:5000/ (Press CTRL+C to quit)
+[2021-08-23 17:24:10,213] [DEBUG] [flaskblog] [routes:21] - index without searching returned 18 posts
+[2021-08-23 17:24:10,256] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:10] "GET / HTTP/1.1" 200 -
+[2021-08-23 17:24:10,377] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:10] "GET /static/main.css HTTP/1.1" 200 -
+[2021-08-23 17:24:10,456] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:10] "GET /static/profile_pics/another_pic.jpeg HTTP/1.1" 200 -
+[2021-08-23 17:24:10,639] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:10] "GET /static/profile_pics/7798432669b8b3ac.jpg HTTP/1.1" 200 -
+[2021-08-23 17:24:10,639] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:10] "GET /static/profile_pics/default.jpg HTTP/1.1" 200 -
+[2021-08-23 17:24:41,243] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:41] "GET /post/1 HTTP/1.1" 200 -
+[2021-08-23 17:24:41,269] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:41] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+[2021-08-23 17:24:41,476] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:41] "[36mGET /static/profile_pics/another_pic.jpeg HTTP/1.1[0m" 304 -
+[2021-08-23 17:24:41,591] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:41] "[36mGET /static/profile_pics/7798432669b8b3ac.jpg HTTP/1.1[0m" 304 -
+[2021-08-23 17:24:44,226] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:44] "GET /login HTTP/1.1" 200 -
+[2021-08-23 17:24:44,247] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+[2021-08-23 17:24:46,131] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:46] "GET /register HTTP/1.1" 200 -
+[2021-08-23 17:24:46,420] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:46] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+[2021-08-23 17:24:59,308] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:59] "POST /register HTTP/1.1" 200 -
+[2021-08-23 17:24:59,330] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:24:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:18,093] [DEBUG] [flaskblog] [routes:41] - New user created successfully.
+[2021-08-23 17:25:18,095] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:18] "[32mPOST /register HTTP/1.1[0m" 302 -
+[2021-08-23 17:25:18,193] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:18] "GET /login HTTP/1.1" 200 -
+[2021-08-23 17:25:18,532] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:18] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:22,752] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2021-08-23 17:25:22,853] [DEBUG] [flaskblog] [routes:21] - index without searching returned 18 posts
+[2021-08-23 17:25:22,863] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:22] "GET /home HTTP/1.1" 200 -
+[2021-08-23 17:25:23,186] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:23] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:23,208] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:23] "[36mGET /static/profile_pics/another_pic.jpeg HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:23,209] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:23] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:23,211] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:23] "[36mGET /static/profile_pics/7798432669b8b3ac.jpg HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:28,371] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:28] "GET /post/new HTTP/1.1" 200 -
+[2021-08-23 17:25:28,658] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:28] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:36,537] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:36] "POST /post/new HTTP/1.1" 200 -
+[2021-08-23 17:25:36,558] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:36] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:39,154] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:39] "[32mPOST /post/new HTTP/1.1[0m" 302 -
+[2021-08-23 17:25:39,452] [DEBUG] [flaskblog] [routes:21] - index without searching returned 19 posts
+[2021-08-23 17:25:39,463] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:39] "GET /home HTTP/1.1" 200 -
+[2021-08-23 17:25:39,785] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:39] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:39,806] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:39] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:39,807] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:39] "[36mGET /static/profile_pics/another_pic.jpeg HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:39,808] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:39] "[36mGET /static/profile_pics/7798432669b8b3ac.jpg HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:48,099] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:48] "GET /account HTTP/1.1" 200 -
+[2021-08-23 17:25:48,387] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:48] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+[2021-08-23 17:25:48,439] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:25:48] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+[2021-08-23 17:26:01,866] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:26:01] "[32mPOST /account HTTP/1.1[0m" 302 -
+[2021-08-23 17:26:01,875] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:26:01] "GET /account HTTP/1.1" 200 -
+[2021-08-23 17:26:02,110] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:26:02] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+[2021-08-23 17:26:02,244] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:26:02] "GET /static/profile_pics/68d72386c497a55d.jpg HTTP/1.1" 200 -
+[2021-08-23 17:26:09,677] [DEBUG] [flaskblog] [routes:21] - index without searching returned 19 posts
+[2021-08-23 17:26:09,688] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:26:09] "GET / HTTP/1.1" 200 -
+[2021-08-23 17:26:09,707] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:26:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+[2021-08-23 17:26:09,928] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:26:09] "[36mGET /static/profile_pics/68d72386c497a55d.jpg HTTP/1.1[0m" 304 -
+[2021-08-23 17:26:10,028] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:26:10] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+[2021-08-23 17:26:10,029] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:26:10] "[36mGET /static/profile_pics/another_pic.jpeg HTTP/1.1[0m" 304 -
+[2021-08-23 17:26:10,030] [INFO] [werkzeug] [_internal:225] - 127.0.0.1 - - [23/Aug/2021 17:26:10] "[36mGET /static/profile_pics/7798432669b8b3ac.jpg HTTP/1.1[0m" 304 -
